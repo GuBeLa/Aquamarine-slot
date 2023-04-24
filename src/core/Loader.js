@@ -1,4 +1,4 @@
-import { Assets, Spritesheet } from 'pixi.js';
+import { Assets } from 'pixi.js';
 
 export default class Loader {
   constructor(onAssetsLoaded) {
