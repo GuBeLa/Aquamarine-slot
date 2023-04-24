@@ -17,6 +17,7 @@ export default class Loader {
     Assets.add('lowwin_star', 'src/assets/lowwin_star.png');
     Assets.add('wild', 'src/assets/wild.png');
 	Assets.add('Fish_1', 'src/assets/Fish 1/fish 1.json');
+	Assets.add('Fish_2', 'src/assets/Fish 1/fish 1.json');
 
     const texturesPromise = Assets.load(['BG', 'BG_Frames', 'btn_active', 'btn_inactive', 'lowwin_club', 'lowwin_diamond', 'lowwin_heart', 'lowwin_spade', 'lowwin_star', 'wild', 'Fish_1']);
     texturesPromise.then((textures) => {

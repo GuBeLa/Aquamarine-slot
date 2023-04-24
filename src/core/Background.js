@@ -19,7 +19,8 @@ export default class Background {
 		this.container.addChild(BG_Frames);
 
 		const animations = PIXI.Assets.cache.get('Fish_1')?.data?.animations;
-		const sprite = PIXI.AnimatedSprite.fromFrames(animations["1-FISH_WAIT"]);
+		console.log(animations, 'animations')
+		const sprite = PIXI.AnimatedSprite.fromFrames(animations["1-FISH"]);
 		sprite.loop = true;
 		sprite.gotoAndPlay(0);
 		sprite.x = 100;
