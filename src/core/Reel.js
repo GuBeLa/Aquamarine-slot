@@ -16,7 +16,13 @@ export default class Reel {
 			{ id: 2, texture: PIXI.Texture.from('lowwin_heart') },
 			{ id: 3, texture: PIXI.Texture.from('lowwin_spade') },
 			{ id: 4, texture: PIXI.Texture.from('lowwin_star') },
-			{ id: 5, texture: PIXI.Texture.from('wild') }
+			{ id: 5, texture: PIXI.Texture.from('wild') },
+			{ id: 6, texture: PIXI.Texture.from('lowwin_club') },
+			{ id: 7, texture: PIXI.Texture.from('lowwin_diamond') },
+			{ id: 8, texture: PIXI.Texture.from('lowwin_heart') },
+			{ id: 9, texture: PIXI.Texture.from('lowwin_spade') },
+			{ id: 10, texture: PIXI.Texture.from('lowwin_star') },
+			{ id: 11, texture: PIXI.Texture.from('wild') }
 		];
 		
 		this.container = new PIXI.Container();

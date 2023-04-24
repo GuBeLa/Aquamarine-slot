@@ -5,9 +5,9 @@ export default class ReelContainer {
 	constructor(addToStage) {
 		this.addToStage = addToStage;
 		this.x = 280;
-		this.y = 290;
+		this.y = 50;
 		this.width = 1000;
-		this.height = 467;
+		this.height = 800;
 		this.delayStop = 500;
 		this.columnPadding = 8;
 		this.reelPositions = 5;
