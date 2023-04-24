@@ -6,7 +6,7 @@ export default class ReelContainer {
 		this.addToStage = addToStage;
 		this.x = 280;
 		this.y = 290;
-		this.width = window.innerWidth;
+		this.width = 1000;
 		this.height = 467;
 		this.delayStop = 500;
 		this.columnPadding = 8;
@@ -34,6 +34,8 @@ export default class ReelContainer {
 		this.container.y = this.y;
 		this.addReel();
 		this.createMask();
+
+		console.log(this.container, 'this.container')
 	}
 
 	shuffleReelIds() {

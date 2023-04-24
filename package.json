@@ -28,6 +28,7 @@
         "@pixi/ui": "^0.7.0",
         "@tweenjs/tween.js": "^19.0.0",
         "gsap": "^3.11.4",
+        "pixi-spine": "^4.0.3",
         "pixi.js": "^7.2.4"
     },
     "devDependencies": {

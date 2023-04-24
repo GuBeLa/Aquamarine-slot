@@ -16,8 +16,14 @@ export default class Button {
 	}
 	
 	initialize() {
-		this.activeBtn = PIXI.loader.resources['btn_active'].texture;
-		this.inactiveBtn = PIXI.loader.resources['btn_inactive'].texture;
+		console.log(PIXI.Assets.cache.get('Fish_1').data.animations)
+
+		const animations = PIXI.Assets.cache.get('Fish_1').data.animations;
+		const sprite = PIXI.AnimatedSprite.fromFrames(animations["src/assets/Fish 1/fish 1.png"]);
+
+
+		this.activeBtn = PIXI.Texture.from('btn_active');
+		this.inactiveBtn = PIXI.Texture.from('btn_inactive');
 		
 		this.container.position.x = this.position.x;
 		this.container.position.y = this.position.y;

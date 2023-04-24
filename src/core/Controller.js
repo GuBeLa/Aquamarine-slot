@@ -1,31 +1,35 @@
-import { Application, Container, autoDetectRenderer } from "pixi.js";
-
+import * as PIXI from 'pixi.js';
 export default class Controller {
 	constructor() {
-		this.width = null;
-		this.height = null;
+		this.width = window.innerWidth ? window.innerWidth : 800;
+		this.height = window.innerHeight ? window.innerHeight : 600;
 		this.stopCount = 0;
+		
 
-		const app = new Application({
-			width: 100,
-			height: 100
-		})
-		this.stage = app.stage;
-		console.log(app);
+		this.app = new PIXI.Application({
+			width: this.width,
+			height: this.height,
+			backgroundColor: 0x1099bb
+		});
 
+		this.stage = this.app.state;
 	}
 
 	createRenderer() {
-		this.renderer = autoDetectRenderer(this.width, this.height);
 		
-		document.body.appendChild(this.renderer.view);
+
+		// this.stage = this.app.stage;
+		  
+		document.body.appendChild(this.app.view);
 		
-		this.renderer.render(this.stage);
+		// this.app.stage.addChild(this.stage);
+
+		console.log(this.app, 'app', this.stage);
 	}
 
 	stageAdd(item) {
-		this.stage.addChild(item);
-		this.renderer.render(this.stage);
+		this.app.stage.addChild(item);
+		// this.app.renderer.render(this.stage);
 	}
 
 	onStartSpin() {
@@ -42,7 +46,10 @@ export default class Controller {
 	}
 
 	animate() {
-		requestAnimationFrame(this.animate.bind(this));
-		this.renderer.render(this.stage);
+		// requestAnimationFrame(this.animate.bind(this));
+		// this.renderer.render(this.stage);
+		PIXI.Ticker.shared.add(() => {
+			this.app.renderer.render(this.app.stage);
+		});
 	}
 }

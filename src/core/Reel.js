@@ -11,17 +11,19 @@ export default class Reel {
 		};
 		this.delayStop = 0;
 		this.singleReel = [
-			{ id: 0, texture:PIXI.loader.resources['lowwin_club'].texture },
-			{ id: 1, texture:PIXI.loader.resources['lowwin_diamond'].texture },
-			{ id: 2, texture:PIXI.loader.resources['lowwin_heart'].texture },
-			{ id: 3, texture:PIXI.loader.resources['lowwin_spade'].texture },
-			{ id: 4, texture:PIXI.loader.resources['lowwin_star'].texture },
-			{ id: 5, texture:PIXI.loader.resources['wild'].texture }
+			{ id: 0, texture: PIXI.Texture.from('lowwin_club') },
+			{ id: 1, texture: PIXI.Texture.from('lowwin_diamond') },
+			{ id: 2, texture: PIXI.Texture.from('lowwin_heart') },
+			{ id: 3, texture: PIXI.Texture.from('lowwin_spade') },
+			{ id: 4, texture: PIXI.Texture.from('lowwin_star') },
+			{ id: 5, texture: PIXI.Texture.from('wild') }
 		];
 		
 		this.container = new PIXI.Container();
 		this.container.position.x = this.position.x;
 		this.container.position.y = this.position.y;
+
+		console.log(this.singleReel)
 		
 		this.createTurn(turn);
 		this.createReels();

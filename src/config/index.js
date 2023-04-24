@@ -1,8 +1,8 @@
 import { ConfigInterface } from './contract';
 
 export const config = {
-  gameWidth: 800,
-  gameHeight: 600,
+  gameWidth: 1000,
+  gameHeight: 1000,
   reelsPosition: { x: 120, y: 60 },
   playButtonPosition: { x: 305, y: 470 },
   selectEasyModePosition: { x: 640, y: 415 },
