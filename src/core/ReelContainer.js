@@ -116,11 +116,13 @@ export default class ReelContainer {
 	
 	createMask() {
 		let thing = new PIXI.Graphics();
+		this.container.addChild(thing);
 		
 		thing.clear();
-		thing.drawRect(this.x, this.y, this.width, this.height);
-		
+		thing.beginFill(0x8bc5ff, 0.9);
+		thing.drawRect(0, 0, this.width, this.height);
+		thing.endFill();
+
 		this.container.mask = thing;
-		this.addToStage(thing);
 	}
 }
