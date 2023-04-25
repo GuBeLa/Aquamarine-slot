@@ -4,13 +4,13 @@ import * as PIXI from 'pixi.js';
 export default class ReelContainer {
 	constructor(addToStage) {
 		this.addToStage = addToStage;
-		this.x = 280;
-		this.y = 50;
-		this.width = 1000;
-		this.height = 800;
+		this.x = 250;
+		this.y = 40;
+		this.width = window.innerWidth;
+		this.height = 770;
 		this.delayStop = 500;
-		this.columnPadding = 8;
-		this.reelPositions = 5;
+		this.columnPadding = 13;
+		this.reelPositions = 6;
 		this.textStyle = {
 			fontFamily: 'Arial',
 			fontWeight: 'bold',
@@ -27,7 +27,7 @@ export default class ReelContainer {
 
 		this.reelIds = [4, 5, 3, 2, 0, 1];
 
-		this.reels = Array.from({ length: 5 }, () => new Reel(this.shuffleReelIds()));
+		this.reels = Array.from({ length: 6 }, () => new Reel(this.shuffleReelIds()));
 		
 		this.container = new PIXI.Container();
 		this.container.x = this.x;

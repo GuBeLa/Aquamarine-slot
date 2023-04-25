@@ -9,27 +9,21 @@ export default class Controller {
 		this.app = new PIXI.Application({
 			width: this.width,
 			height: this.height,
-			backgroundColor: 0x1099bb
+			backgroundColor: 0x1099bb,
+			resizeTo: window
 		});
 
 		this.stage = this.app.state;
+
+		// this.resize();
 	}
 
 	createRenderer() {
-		
-
-		// this.stage = this.app.stage;
-		  
 		document.body.appendChild(this.app.view);
-		
-		// this.app.stage.addChild(this.stage);
-
-		console.log(this.app, 'app', this.stage);
 	}
 
 	stageAdd(item) {
 		this.app.stage.addChild(item);
-		// this.app.renderer.render(this.stage);
 	}
 
 	onStartSpin() {
@@ -39,6 +33,7 @@ export default class Controller {
 
 	onEndSpin() {
 		this.stopCount++;
+		console.log(this.stopCount, 'this.stopCount')
 		if (this.stopCount === 5) {
 			this.button.buttonActiveToggle();
 			this.reels.checkRows(this.reels.finalResult)
@@ -51,5 +46,18 @@ export default class Controller {
 		PIXI.Ticker.shared.add(() => {
 			this.app.renderer.render(this.app.stage);
 		});
+	}
+
+	
+	resize() {
+		if (window.innerWidth / window.innerHeight >= (1920 / 1080)) {
+			var w = window.innerHeight * (1920 / 1080);
+			var h = window.innerHeight;
+		} else {
+			var w = window.innerWidth;
+			var h = window.innerWidth / (1920 / 1080);
+		}
+		this.app.renderer.view.style.width = w + 'px';
+		this.app.renderer.view.style.height = h + 'px';
 	}
 }

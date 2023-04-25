@@ -1,8 +1,8 @@
 import * as PIXI from 'pixi.js';
 export default class Reel {
 	constructor(turn){
-		this.width = 180;
-		this.height = 156;
+		this.width = 150;
+		this.height = 160;
 		this.cached = {};
 		this.animation = true;
 		this.position = {
@@ -11,18 +11,18 @@ export default class Reel {
 		};
 		this.delayStop = 0;
 		this.singleReel = [
-			{ id: 0, texture: PIXI.Texture.from('lowwin_club') },
-			{ id: 1, texture: PIXI.Texture.from('lowwin_diamond') },
-			{ id: 2, texture: PIXI.Texture.from('lowwin_heart') },
-			{ id: 3, texture: PIXI.Texture.from('lowwin_spade') },
-			{ id: 4, texture: PIXI.Texture.from('lowwin_star') },
-			{ id: 5, texture: PIXI.Texture.from('wild') },
-			{ id: 6, texture: PIXI.Texture.from('lowwin_club') },
-			{ id: 7, texture: PIXI.Texture.from('lowwin_diamond') },
-			{ id: 8, texture: PIXI.Texture.from('lowwin_heart') },
-			{ id: 9, texture: PIXI.Texture.from('lowwin_spade') },
-			{ id: 10, texture: PIXI.Texture.from('lowwin_star') },
-			{ id: 11, texture: PIXI.Texture.from('wild') }
+			{ id: 0, texture: PIXI.Texture.from('symbol_crab') },
+			{ id: 1, texture: PIXI.Texture.from('symbol_fish_1') },
+			{ id: 2, texture: PIXI.Texture.from('symbol_fish_2') },
+			{ id: 3, texture: PIXI.Texture.from('symbol_fish_3') },
+			{ id: 4, texture: PIXI.Texture.from('symbol_fish_4') },
+			{ id: 5, texture: PIXI.Texture.from('symbol_fish_5') },
+			{ id: 6, texture: PIXI.Texture.from('symbol_horse') },
+			{ id: 7, texture: PIXI.Texture.from('symbol_octopus') },
+			{ id: 8, texture: PIXI.Texture.from('symbol_star') },
+			{ id: 9, texture: PIXI.Texture.from('symbol_fish_1') },
+			{ id: 10, texture: PIXI.Texture.from('symbol_fish_2') },
+			{ id: 11, texture: PIXI.Texture.from('symbol_fish_3') }
 		];
 		
 		this.container = new PIXI.Container();

@@ -6,6 +6,20 @@ export default class Background {
 		this.backgroundFrames = PIXI.Texture.from('BG_Frames');
 		this.setBackground();
 		this.setBackgroundFrames();
+		// this.setSprite('Fish_1', '1-FISH', 100, 100, 0, 0);
+		this.setSprite('Logo', 'logo', 1230, 0, 0, 0);
+	}
+
+	setSprite(texture, animation, x, y, anchorX, anchorY) {
+		const animations = PIXI.Assets.cache.get(texture)?.data?.animations;
+		console.log(animations, 'animations')
+		const sprite = PIXI.AnimatedSprite.fromFrames(animations[animation]);
+		sprite.loop = true;
+		sprite.gotoAndPlay(0);
+		sprite.x = x;
+		sprite.y = y;
+		console.log(sprite);
+		this.container.addChild(sprite);
 	}
 	
 	setBackground() {
@@ -17,15 +31,5 @@ export default class Background {
 		const BG_Frames = new PIXI.Sprite(this.backgroundFrames);
 		BG_Frames.anchor.set(-0.2, 0);
 		this.container.addChild(BG_Frames);
-
-		const animations = PIXI.Assets.cache.get('Fish_1')?.data?.animations;
-		console.log(animations, 'animations')
-		const sprite = PIXI.AnimatedSprite.fromFrames(animations["1-FISH"]);
-		sprite.loop = true;
-		sprite.gotoAndPlay(0);
-		sprite.x = 100;
-		sprite.y = 100;
-		console.log(sprite);
-		this.container.addChild(sprite);
 	}
 }
