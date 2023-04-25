@@ -1,0 +1,87 @@
+{"frames": {
+
+"arrows_00351.png":
+{
+	"frame": {"x":1,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00352.png":
+{
+	"frame": {"x":108,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00353.png":
+{
+	"frame": {"x":215,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00354.png":
+{
+	"frame": {"x":322,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00355.png":
+{
+	"frame": {"x":429,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00356.png":
+{
+	"frame": {"x":536,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00357.png":
+{
+	"frame": {"x":643,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00358.png":
+{
+	"frame": {"x":750,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+},
+"arrows_00359.png":
+{
+	"frame": {"x":857,"y":1,"w":105,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":91},
+	"sourceSize": {"w":105,"h":91}
+}},
+"animations": {
+	"arrows": ["arrows_00351.png","arrows_00352.png","arrows_00353.png","arrows_00354.png","arrows_00355.png","arrows_00356.png","arrows_00357.png","arrows_00358.png","arrows_00359.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "arrows.png",
+	"format": "RGBA8888",
+	"size": {"w":963,"h":93},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:59ce76b151098417453b657604d52386:08cf97187e4ac20447dbd8d2956cbd1f:0c8b2eea25d6fa2e4625a992aa216f5f$"
+}
+}
