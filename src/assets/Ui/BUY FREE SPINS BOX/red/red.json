@@ -1,0 +1,47 @@
+{"frames": {
+
+"red_02212.png":
+{
+	"frame": {"x":1,"y":55,"w":38,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":10,"w":38,"h":36},
+	"sourceSize": {"w":53,"h":57}
+},
+"red_02213.png":
+{
+	"frame": {"x":56,"y":49,"w":42,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":8,"w":42,"h":41},
+	"sourceSize": {"w":53,"h":57}
+},
+"red_02214.png":
+{
+	"frame": {"x":56,"y":1,"w":48,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":5,"w":48,"h":46},
+	"sourceSize": {"w":53,"h":57}
+},
+"red_02215.png":
+{
+	"frame": {"x":1,"y":1,"w":53,"h":52},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":53,"h":52},
+	"sourceSize": {"w":53,"h":57}
+}},
+"animations": {
+	"red": ["red_02212.png","red_02213.png","red_02214.png","red_02215.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "red.png",
+	"format": "RGBA8888",
+	"size": {"w":105,"h":92},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5c10072d45cea2aaab39cd31c48ac26d:da873ad2ef85cc9528d9ed2ce5e501b3:f41f2d32a29f225b3218c7668f956770$"
+}
+}

@@ -10,9 +10,16 @@ export default class Background {
 		this.Left_Stone = PIXI.Texture.from('Left_Stone');
 		this.Left_Stone_2 = PIXI.Texture.from('Left_Stone_2');
 		this.Left_Stone_3 = PIXI.Texture.from('Left_Stone_3');
+		this.Menu = PIXI.Texture.from('Menu');
+		this.Sounds = PIXI.Texture.from('Sounds');
+		this.Burger = PIXI.Texture.from('Burger');
+		this.Autoplay = PIXI.Texture.from('Autoplay');
+		this.Coins = PIXI.Texture.from('Coins');
+		this.Balance = PIXI.Texture.from('Balance');
+		this.Bet = PIXI.Texture.from('Bet');
+		this.Win = PIXI.Texture.from('Win');
 		this.setBackground();
 		this.setBackgroundFrames();
-		// this.setSprite('Fish_1', '1-FISH', 100, 100, 0, 0);
 		this.setSprite('Logo', 'logo', 1430, 0, 1, 0, 0);
 		this.setSprite('bottom_light', 'slot bg_13', 0, 825, 2, 0, 0);
 		this.setSprite('Seaplant1', 'seaplant1', 1720, 810, 1, 0, 0);
@@ -42,6 +49,7 @@ export default class Background {
 		console.log(animations, 'animations')
 		const sprite = PIXI.AnimatedSprite.fromFrames(animations[animation]);
 		sprite.loop = true;
+		sprite.animationSpeed = 0.4;
 		sprite.gotoAndPlay(0);
 		sprite.x = x;
 		sprite.y = y;
@@ -79,5 +87,45 @@ export default class Background {
 		const Left_Stone_3 = new PIXI.Sprite(this.Left_Stone_3);
 		Left_Stone_3.position.set(0, 720);
 		this.container.addChild(Left_Stone_3);
+
+		const Menu = new PIXI.Sprite(this.Menu);
+		Menu.position.set(220, 810);
+		Menu.zIndex = 5;
+		this.container.addChild(Menu);
+
+		const Sounds = new PIXI.Sprite(this.Sounds);
+		Sounds.position.set(1542, 872);
+		Sounds.zIndex = 5;
+		this.container.addChild(Sounds);
+
+		const Burger = new PIXI.Sprite(this.Burger);
+		Burger.position.set(243, 872);
+		Burger.zIndex = 5;
+		this.container.addChild(Burger);
+
+		const Autoplay = new PIXI.Sprite(this.Autoplay);
+		Autoplay.position.set(1020, 865);
+		Autoplay.zIndex = 5;
+		this.container.addChild(Autoplay);
+
+		const Coins = new PIXI.Sprite(this.Coins);
+		Coins.position.set(780, 869);
+		Coins.zIndex = 5;
+		this.container.addChild(Coins);
+
+		const Balance = new PIXI.Sprite(this.Balance);
+		Balance.position.set(330, 867);
+		Balance.zIndex = 5;
+		this.container.addChild(Balance);
+
+		const Bet = new PIXI.Sprite(this.Bet);
+		Bet.position.set(570, 867);
+		Bet.zIndex = 5;
+		this.container.addChild(Bet);
+
+		const Win = new PIXI.Sprite(this.Win);
+		Win.position.set(1170, 867);
+		Win.zIndex = 5;
+		this.container.addChild(Win);
 	}
 }

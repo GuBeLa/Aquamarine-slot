@@ -20,7 +20,7 @@ export default class App extends Controller {
 	init() {
 		this.createScene();
 		this.createReels();
-		this.createButton();
+		// this.createButton();
 		this.animate()
 	}
 
