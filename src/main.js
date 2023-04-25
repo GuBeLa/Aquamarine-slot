@@ -3,6 +3,9 @@ import Loader from './core/Loader';
 import Background from './core/Background';
 import Button from './core/Button';
 import ReelContainer from './core/ReelContainer';
+import Scoreboard from './core/Scoreboard';
+import VictoryScreen from './core/VictoryScreen';
+
 
 export default class App extends Controller {
 	constructor() {
@@ -29,6 +32,16 @@ export default class App extends Controller {
 	createReels() {
 		this.reels = new ReelContainer(this.stageAdd.bind(this));
 		this.stageAdd(this.reels.container);
+	}
+
+	createScoreboard() {
+		this.score = new Scoreboard(this.stageAdd.bind(this));
+		this.stageAdd(this.score.container);
+	}
+
+	createVictoryScreen() {
+		this.victory = new VictoryScreen(this.stageAdd.bind(this));
+		this.stageAdd(this.victory.container);
 	}
 
 	createButton() {

@@ -29,8 +29,6 @@ export default class Reel {
 		this.container.position.x = this.position.x;
 		this.container.position.y = this.position.y;
 
-		console.log(this.singleReel)
-		
 		this.createTurn(turn);
 		this.createReels();
 		
