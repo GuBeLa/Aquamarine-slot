@@ -4,8 +4,8 @@ import * as PIXI from 'pixi.js';
 export default class ReelContainer {
 	constructor(addToStage) {
 		this.addToStage = addToStage;
-		this.x = 250;
-		this.y = 40;
+		this.x = 502;
+		this.y = 130;
 		this.width = window.innerWidth;
 		this.height = 770;
 		this.delayStop = 500;
@@ -32,6 +32,7 @@ export default class ReelContainer {
 		this.container = new PIXI.Container();
 		this.container.x = this.x;
 		this.container.y = this.y;
+		this.container.scale.set(0.9, 0.9);
 		this.addReel();
 		this.createMask();
 

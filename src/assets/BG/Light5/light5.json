@@ -1,6 +1,6 @@
 {"frames": {
 
-"свет_00000.png":
+"light_5_00000.png":
 {
 	"frame": {"x":537,"y":265,"w":243,"h":360},
 	"rotated": true,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":68,"y":0,"w":243,"h":360},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00001.png":
+"light_5_00001.png":
 {
 	"frame": {"x":536,"y":510,"w":243,"h":360},
 	"rotated": true,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":68,"y":0,"w":243,"h":360},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00002.png":
+"light_5_00002.png":
 {
 	"frame": {"x":898,"y":510,"w":243,"h":360},
 	"rotated": true,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":68,"y":0,"w":243,"h":360},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00003.png":
+"light_5_00003.png":
 {
 	"frame": {"x":899,"y":264,"w":244,"h":359},
 	"rotated": true,
@@ -32,7 +32,7 @@
 	"spriteSourceSize": {"x":67,"y":0,"w":244,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00004.png":
+"light_5_00004.png":
 {
 	"frame": {"x":534,"y":1015,"w":244,"h":359},
 	"rotated": true,
@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":67,"y":0,"w":244,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00005.png":
+"light_5_00005.png":
 {
 	"frame": {"x":1156,"y":1271,"w":244,"h":359},
 	"rotated": true,
@@ -48,7 +48,7 @@
 	"spriteSourceSize": {"x":67,"y":0,"w":244,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00006.png":
+"light_5_00006.png":
 {
 	"frame": {"x":1600,"y":766,"w":245,"h":359},
 	"rotated": true,
@@ -56,7 +56,7 @@
 	"spriteSourceSize": {"x":66,"y":0,"w":245,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00007.png":
+"light_5_00007.png":
 {
 	"frame": {"x":1517,"y":1268,"w":246,"h":358},
 	"rotated": true,
@@ -64,7 +64,7 @@
 	"spriteSourceSize": {"x":65,"y":0,"w":246,"h":358},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00008.png":
+"light_5_00008.png":
 {
 	"frame": {"x":530,"y":1261,"w":246,"h":358},
 	"rotated": true,
@@ -72,7 +72,7 @@
 	"spriteSourceSize": {"x":65,"y":0,"w":246,"h":358},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00009.png":
+"light_5_00009.png":
 {
 	"frame": {"x":1260,"y":260,"w":248,"h":357},
 	"rotated": true,
@@ -80,7 +80,7 @@
 	"spriteSourceSize": {"x":63,"y":0,"w":248,"h":357},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00010.png":
+"light_5_00010.png":
 {
 	"frame": {"x":1260,"y":510,"w":249,"h":356},
 	"rotated": true,
@@ -88,7 +88,7 @@
 	"spriteSourceSize": {"x":62,"y":0,"w":249,"h":356},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00011.png":
+"light_5_00011.png":
 {
 	"frame": {"x":1242,"y":761,"w":250,"h":356},
 	"rotated": true,
@@ -96,7 +96,7 @@
 	"spriteSourceSize": {"x":61,"y":0,"w":250,"h":356},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00012.png":
+"light_5_00012.png":
 {
 	"frame": {"x":1618,"y":513,"w":251,"h":355},
 	"rotated": true,
@@ -104,7 +104,7 @@
 	"spriteSourceSize": {"x":60,"y":0,"w":251,"h":355},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00013.png":
+"light_5_00013.png":
 {
 	"frame": {"x":1510,"y":1013,"w":253,"h":354},
 	"rotated": true,
@@ -112,7 +112,7 @@
 	"spriteSourceSize": {"x":58,"y":0,"w":253,"h":354},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00014.png":
+"light_5_00014.png":
 {
 	"frame": {"x":1593,"y":1,"w":254,"h":354},
 	"rotated": true,
@@ -120,7 +120,7 @@
 	"spriteSourceSize": {"x":57,"y":0,"w":254,"h":354},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00015.png":
+"light_5_00015.png":
 {
 	"frame": {"x":1619,"y":257,"w":254,"h":354},
 	"rotated": true,
@@ -128,7 +128,7 @@
 	"spriteSourceSize": {"x":56,"y":0,"w":254,"h":354},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00016.png":
+"light_5_00016.png":
 {
 	"frame": {"x":887,"y":755,"w":255,"h":353},
 	"rotated": true,
@@ -136,7 +136,7 @@
 	"spriteSourceSize": {"x":55,"y":0,"w":255,"h":353},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00017.png":
+"light_5_00017.png":
 {
 	"frame": {"x":1156,"y":1013,"w":256,"h":352},
 	"rotated": true,
@@ -144,7 +144,7 @@
 	"spriteSourceSize": {"x":54,"y":0,"w":256,"h":352},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00018.png":
+"light_5_00018.png":
 {
 	"frame": {"x":1239,"y":1,"w":257,"h":352},
 	"rotated": true,
@@ -152,7 +152,7 @@
 	"spriteSourceSize": {"x":53,"y":0,"w":257,"h":352},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00019.png":
+"light_5_00019.png":
 {
 	"frame": {"x":534,"y":755,"w":258,"h":351},
 	"rotated": true,
@@ -160,7 +160,7 @@
 	"spriteSourceSize": {"x":52,"y":0,"w":258,"h":351},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00020.png":
+"light_5_00020.png":
 {
 	"frame": {"x":895,"y":1012,"w":259,"h":350},
 	"rotated": false,
@@ -168,7 +168,7 @@
 	"spriteSourceSize": {"x":51,"y":0,"w":259,"h":350},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00021.png":
+"light_5_00021.png":
 {
 	"frame": {"x":888,"y":1,"w":261,"h":349},
 	"rotated": true,
@@ -176,7 +176,7 @@
 	"spriteSourceSize": {"x":49,"y":0,"w":261,"h":349},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00022.png":
+"light_5_00022.png":
 {
 	"frame": {"x":537,"y":1,"w":262,"h":349},
 	"rotated": true,
@@ -184,7 +184,7 @@
 	"spriteSourceSize": {"x":48,"y":0,"w":262,"h":349},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00023.png":
+"light_5_00023.png":
 {
 	"frame": {"x":1,"y":1048,"w":262,"h":349},
 	"rotated": false,
@@ -192,7 +192,7 @@
 	"spriteSourceSize": {"x":48,"y":0,"w":262,"h":349},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00024.png":
+"light_5_00024.png":
 {
 	"frame": {"x":265,"y":1048,"w":263,"h":348},
 	"rotated": false,
@@ -200,7 +200,7 @@
 	"spriteSourceSize": {"x":47,"y":0,"w":263,"h":348},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00025.png":
+"light_5_00025.png":
 {
 	"frame": {"x":268,"y":699,"w":264,"h":347},
 	"rotated": false,
@@ -208,7 +208,7 @@
 	"spriteSourceSize": {"x":46,"y":0,"w":264,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00026.png":
+"light_5_00026.png":
 {
 	"frame": {"x":1,"y":699,"w":265,"h":347},
 	"rotated": false,
@@ -216,7 +216,7 @@
 	"spriteSourceSize": {"x":45,"y":0,"w":265,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00027.png":
+"light_5_00027.png":
 {
 	"frame": {"x":269,"y":350,"w":265,"h":347},
 	"rotated": false,
@@ -224,7 +224,7 @@
 	"spriteSourceSize": {"x":45,"y":0,"w":265,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00028.png":
+"light_5_00028.png":
 {
 	"frame": {"x":1,"y":1,"w":266,"h":347},
 	"rotated": false,
@@ -232,7 +232,7 @@
 	"spriteSourceSize": {"x":44,"y":0,"w":266,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00029.png":
+"light_5_00029.png":
 {
 	"frame": {"x":1,"y":350,"w":266,"h":347},
 	"rotated": false,
@@ -240,7 +240,7 @@
 	"spriteSourceSize": {"x":44,"y":0,"w":266,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00030.png":
+"light_5_00030.png":
 {
 	"frame": {"x":269,"y":1,"w":266,"h":347},
 	"rotated": false,
@@ -248,7 +248,7 @@
 	"spriteSourceSize": {"x":44,"y":0,"w":266,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00031.png":
+"light_5_00031.png":
 {
 	"frame": {"x":1,"y":350,"w":266,"h":347},
 	"rotated": false,
@@ -256,7 +256,7 @@
 	"spriteSourceSize": {"x":44,"y":0,"w":266,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00032.png":
+"light_5_00032.png":
 {
 	"frame": {"x":1,"y":1,"w":266,"h":347},
 	"rotated": false,
@@ -264,7 +264,7 @@
 	"spriteSourceSize": {"x":44,"y":0,"w":266,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00033.png":
+"light_5_00033.png":
 {
 	"frame": {"x":269,"y":350,"w":265,"h":347},
 	"rotated": false,
@@ -272,7 +272,7 @@
 	"spriteSourceSize": {"x":45,"y":0,"w":265,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00034.png":
+"light_5_00034.png":
 {
 	"frame": {"x":1,"y":699,"w":265,"h":347},
 	"rotated": false,
@@ -280,7 +280,7 @@
 	"spriteSourceSize": {"x":45,"y":0,"w":265,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00035.png":
+"light_5_00035.png":
 {
 	"frame": {"x":268,"y":699,"w":264,"h":347},
 	"rotated": false,
@@ -288,7 +288,7 @@
 	"spriteSourceSize": {"x":46,"y":0,"w":264,"h":347},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00036.png":
+"light_5_00036.png":
 {
 	"frame": {"x":265,"y":1048,"w":263,"h":348},
 	"rotated": false,
@@ -296,7 +296,7 @@
 	"spriteSourceSize": {"x":47,"y":0,"w":263,"h":348},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00037.png":
+"light_5_00037.png":
 {
 	"frame": {"x":1,"y":1048,"w":262,"h":349},
 	"rotated": false,
@@ -304,7 +304,7 @@
 	"spriteSourceSize": {"x":48,"y":0,"w":262,"h":349},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00038.png":
+"light_5_00038.png":
 {
 	"frame": {"x":537,"y":1,"w":262,"h":349},
 	"rotated": true,
@@ -312,7 +312,7 @@
 	"spriteSourceSize": {"x":48,"y":0,"w":262,"h":349},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00039.png":
+"light_5_00039.png":
 {
 	"frame": {"x":888,"y":1,"w":261,"h":349},
 	"rotated": true,
@@ -320,7 +320,7 @@
 	"spriteSourceSize": {"x":49,"y":0,"w":261,"h":349},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00040.png":
+"light_5_00040.png":
 {
 	"frame": {"x":895,"y":1012,"w":259,"h":350},
 	"rotated": false,
@@ -328,7 +328,7 @@
 	"spriteSourceSize": {"x":51,"y":0,"w":259,"h":350},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00041.png":
+"light_5_00041.png":
 {
 	"frame": {"x":534,"y":755,"w":258,"h":351},
 	"rotated": true,
@@ -336,7 +336,7 @@
 	"spriteSourceSize": {"x":52,"y":0,"w":258,"h":351},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00042.png":
+"light_5_00042.png":
 {
 	"frame": {"x":1239,"y":1,"w":257,"h":352},
 	"rotated": true,
@@ -344,7 +344,7 @@
 	"spriteSourceSize": {"x":53,"y":0,"w":257,"h":352},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00043.png":
+"light_5_00043.png":
 {
 	"frame": {"x":1156,"y":1013,"w":256,"h":352},
 	"rotated": true,
@@ -352,7 +352,7 @@
 	"spriteSourceSize": {"x":54,"y":0,"w":256,"h":352},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00044.png":
+"light_5_00044.png":
 {
 	"frame": {"x":887,"y":755,"w":255,"h":353},
 	"rotated": true,
@@ -360,7 +360,7 @@
 	"spriteSourceSize": {"x":55,"y":0,"w":255,"h":353},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00045.png":
+"light_5_00045.png":
 {
 	"frame": {"x":1619,"y":257,"w":254,"h":354},
 	"rotated": true,
@@ -368,7 +368,7 @@
 	"spriteSourceSize": {"x":56,"y":0,"w":254,"h":354},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00046.png":
+"light_5_00046.png":
 {
 	"frame": {"x":1593,"y":1,"w":254,"h":354},
 	"rotated": true,
@@ -376,7 +376,7 @@
 	"spriteSourceSize": {"x":57,"y":0,"w":254,"h":354},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00047.png":
+"light_5_00047.png":
 {
 	"frame": {"x":1510,"y":1013,"w":253,"h":354},
 	"rotated": true,
@@ -384,7 +384,7 @@
 	"spriteSourceSize": {"x":58,"y":0,"w":253,"h":354},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00048.png":
+"light_5_00048.png":
 {
 	"frame": {"x":1618,"y":513,"w":251,"h":355},
 	"rotated": true,
@@ -392,7 +392,7 @@
 	"spriteSourceSize": {"x":60,"y":0,"w":251,"h":355},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00049.png":
+"light_5_00049.png":
 {
 	"frame": {"x":1242,"y":761,"w":250,"h":356},
 	"rotated": true,
@@ -400,7 +400,7 @@
 	"spriteSourceSize": {"x":61,"y":0,"w":250,"h":356},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00050.png":
+"light_5_00050.png":
 {
 	"frame": {"x":1260,"y":510,"w":249,"h":356},
 	"rotated": true,
@@ -408,7 +408,7 @@
 	"spriteSourceSize": {"x":62,"y":0,"w":249,"h":356},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00051.png":
+"light_5_00051.png":
 {
 	"frame": {"x":1260,"y":260,"w":248,"h":357},
 	"rotated": true,
@@ -416,7 +416,7 @@
 	"spriteSourceSize": {"x":63,"y":0,"w":248,"h":357},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00052.png":
+"light_5_00052.png":
 {
 	"frame": {"x":530,"y":1261,"w":246,"h":358},
 	"rotated": true,
@@ -424,7 +424,7 @@
 	"spriteSourceSize": {"x":65,"y":0,"w":246,"h":358},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00053.png":
+"light_5_00053.png":
 {
 	"frame": {"x":1517,"y":1268,"w":246,"h":358},
 	"rotated": true,
@@ -432,7 +432,7 @@
 	"spriteSourceSize": {"x":65,"y":0,"w":246,"h":358},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00054.png":
+"light_5_00054.png":
 {
 	"frame": {"x":1600,"y":766,"w":245,"h":359},
 	"rotated": true,
@@ -440,7 +440,7 @@
 	"spriteSourceSize": {"x":66,"y":0,"w":245,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00055.png":
+"light_5_00055.png":
 {
 	"frame": {"x":1156,"y":1271,"w":244,"h":359},
 	"rotated": true,
@@ -448,7 +448,7 @@
 	"spriteSourceSize": {"x":67,"y":0,"w":244,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00056.png":
+"light_5_00056.png":
 {
 	"frame": {"x":534,"y":1015,"w":244,"h":359},
 	"rotated": true,
@@ -456,7 +456,7 @@
 	"spriteSourceSize": {"x":67,"y":0,"w":244,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00057.png":
+"light_5_00057.png":
 {
 	"frame": {"x":899,"y":264,"w":244,"h":359},
 	"rotated": true,
@@ -464,7 +464,7 @@
 	"spriteSourceSize": {"x":67,"y":0,"w":244,"h":359},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00058.png":
+"light_5_00058.png":
 {
 	"frame": {"x":898,"y":510,"w":243,"h":360},
 	"rotated": true,
@@ -472,7 +472,7 @@
 	"spriteSourceSize": {"x":68,"y":0,"w":243,"h":360},
 	"sourceSize": {"w":314,"h":391}
 },
-"свет_00059.png":
+"light_5_00059.png":
 {
 	"frame": {"x":536,"y":510,"w":243,"h":360},
 	"rotated": true,
@@ -481,7 +481,7 @@
 	"sourceSize": {"w":314,"h":391}
 }},
 "animations": {
-	"свет": ["свет_00000.png","свет_00001.png","свет_00002.png","свет_00003.png","свет_00004.png","свет_00005.png","свет_00006.png","свет_00007.png","свет_00008.png","свет_00009.png","свет_00010.png","свет_00011.png","свет_00012.png","свет_00013.png","свет_00014.png","свет_00015.png","свет_00016.png","свет_00017.png","свет_00018.png","свет_00019.png","свет_00020.png","свет_00021.png","свет_00022.png","свет_00023.png","свет_00024.png","свет_00025.png","свет_00026.png","свет_00027.png","свет_00028.png","свет_00029.png","свет_00030.png","свет_00031.png","свет_00032.png","свет_00033.png","свет_00034.png","свет_00035.png","свет_00036.png","свет_00037.png","свет_00038.png","свет_00039.png","свет_00040.png","свет_00041.png","свет_00042.png","свет_00043.png","свет_00044.png","свет_00045.png","свет_00046.png","свет_00047.png","свет_00048.png","свет_00049.png","свет_00050.png","свет_00051.png","свет_00052.png","свет_00053.png","свет_00054.png","свет_00055.png","свет_00056.png","свет_00057.png","свет_00058.png","свет_00059.png"]
+	"light_5": ["light_5_00000.png","light_5_00001.png","light_5_00002.png","light_5_00003.png","light_5_00004.png","light_5_00005.png","light_5_00006.png","light_5_00007.png","light_5_00008.png","light_5_00009.png","light_5_00010.png","light_5_00011.png","light_5_00012.png","light_5_00013.png","light_5_00014.png","light_5_00015.png","light_5_00016.png","light_5_00017.png","light_5_00018.png","light_5_00019.png","light_5_00020.png","light_5_00021.png","light_5_00022.png","light_5_00023.png","light_5_00024.png","light_5_00025.png","light_5_00026.png","light_5_00027.png","light_5_00028.png","light_5_00029.png","light_5_00030.png","light_5_00031.png","light_5_00032.png","light_5_00033.png","light_5_00034.png","light_5_00035.png","light_5_00036.png","light_5_00037.png","light_5_00038.png","light_5_00039.png","light_5_00040.png","light_5_00041.png","light_5_00042.png","light_5_00043.png","light_5_00044.png","light_5_00045.png","light_5_00046.png","light_5_00047.png","light_5_00048.png","light_5_00049.png","light_5_00050.png","light_5_00051.png","light_5_00052.png","light_5_00053.png","light_5_00054.png","light_5_00055.png","light_5_00056.png","light_5_00057.png","light_5_00058.png","light_5_00059.png"]
 },
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",

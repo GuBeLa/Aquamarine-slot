@@ -4,8 +4,8 @@ export default class Button {
 		this.onSpin = onSpin;
 		this.button = null;
 		this.position = {
-			x: 750,
-			y: 820
+			x: 900,
+			y: 900
 		};
 
 		this.container = new PIXI.Container();
